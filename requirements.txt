@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+biopython
+# Para la descarga de datos de GEO (opcional, si no usas R)
+# Puedes usar un paquete Python como GEOparse
+GEOparse

@@ -1,0 +1,16 @@
+name: TFM_env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - lifelines             # Útil para análisis de supervivencia si lo incluyes
+  - r-limma               # Para preprocesamiento de microarrays (si usas R a través de Conda)
+  - pip
+  - pip:
+    - biopython

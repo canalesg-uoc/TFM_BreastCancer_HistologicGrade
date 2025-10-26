@@ -1,1 +1,32 @@
- 
+# --------------------
+# Archivos de Sistema macOS
+# --------------------
+.DS_Store
+.venv/
+
+# --------------------
+# Entornos Python Virtuales (usando venv)
+# --------------------
+venv/
+*.pyc
+
+# --------------------
+# Entornos Python (si decidieras usar Conda más adelante)
+# --------------------
+.conda
+.ipynb_checkpoints
+
+# --------------------
+# Archivos de Datos Grandes (¡CRUCIAL para GEO!)
+# --------------------
+# La carpeta de datos crudos NO debe subirse a GitHub.
+# El archivo GSE4922.cel (o similar) puede pesar cientos de MB.
+01_Data/raw/
+01_Data/processed/
+
+# --------------------
+# Resultados y Modelos (pueden ser grandes)
+# --------------------
+# Los modelos entrenados y archivos grandes de resultados se ignoran.
+03_Results/models/
+03_Results/features/
